@@ -13,4 +13,11 @@ public class CalculatorTest {
         double result = calculator.sum(2, 3);
         assertEquals(5, result);
     }
+    
+    @Test
+    public void testSub() {
+        Calculator calculator = new Calculator();
+        double result = calculator.sub(3, 2);
+        assertEquals(1, result);
+    }    
 }
