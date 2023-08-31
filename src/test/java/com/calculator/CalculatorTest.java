@@ -34,4 +34,11 @@ public class CalculatorTest {
 		assertEquals(60, calculator.div(30, 0.5));
 		assertEquals(53, calculator.div(450.5, 8.5));
 	}
+	
+	@Test
+	public void testPow() {
+		Calculator calculator = new Calculator();
+		assertEquals(4, calculator.pow(2, 1));
+		assertEquals(9, calculator.pow(3, 3));
+	}
 }
