@@ -1,6 +1,5 @@
 package main.java.com.calculator;
 
-
 public class Calculator {
 	private double number1;
 	private double number2;
@@ -31,12 +30,16 @@ public class Calculator {
 		this.number2 = number2;
 	}
 
-	public double sum(double numero1, double numero2) {
-		return numero1 + numero2;
+	public double sum(double number1, double number2) {
+		return number1 + number2;
 	}
 
-	public double sub(double numero1, double numero2) {
-		return numero1 - numero2;
+	public double sub(double number1, double number2) {
+		return number1 - number2;
+	}
+
+	public double mult(double number1, double number2) {
+		return number1 * number2;
 	}
 
 }
