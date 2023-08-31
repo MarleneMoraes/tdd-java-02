@@ -1,9 +1,7 @@
 package main.java.com.calculator;
 
-class Main {
-}
 
-class Calculator {
+public class Calculator {
 	private double number1;
 	private double number2;
 
