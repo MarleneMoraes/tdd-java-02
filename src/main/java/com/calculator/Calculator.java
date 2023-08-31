@@ -46,4 +46,9 @@ public class Calculator {
 		return number1 / number2;
 	}
 
+	public double pow(double number1, double number2) {
+        	return Math.pow(number1,number2);
+    }
+
+
 }
