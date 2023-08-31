@@ -26,7 +26,7 @@ TDD-Java-Example/
 
 └───└── test/
 
-        └── java/
+ │       └── java/
 
 2. Abra um terminal na raiz do projeto e inicie o ambiente de desenvolvimento.
 
