@@ -24,7 +24,6 @@ public class CalculatorTest {
 	@Test
 	public void testMult() {
 		Calculator calculator = new Calculator();
-		double result = calculator.mult(8, 11);
-		assertEquals(88, result);
+		assertEquals(88, calculator.mult(8, 11));
 	}
 }
