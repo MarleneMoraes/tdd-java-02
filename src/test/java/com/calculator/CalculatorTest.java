@@ -30,6 +30,8 @@ public class CalculatorTest {
 	@Test
 	public void testDiv() {
 		Calculator calculator = new Calculator();
-		assertEquals(40, calculator.div(80, 20));
+		assertEquals(4, calculator.div(80, 20));
+		assertEquals(60, calculator.div(30, 0.5));
+		assertEquals(53, calculator.div(450.5, 8.5));
 	}
 }
