@@ -19,5 +19,12 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         double result = calculator.sub(3, 2);
         assertEquals(1, result);
-    }    
+    }
+    
+    @Test
+    public void testMult() {
+        Calculator calculator = new Calculator();
+        double result = calculator.mult(8, 11);
+        assertEquals(88, result);
+    }  
 }
