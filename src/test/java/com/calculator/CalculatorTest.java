@@ -26,4 +26,10 @@ public class CalculatorTest {
 		Calculator calculator = new Calculator();
 		assertEquals(88, calculator.mult(8, 11));
 	}
+	
+	@Test
+	public void testDiv() {
+		Calculator calculator = new Calculator();
+		assertEquals(40, calculator.div(80, 20));
+	}
 }
