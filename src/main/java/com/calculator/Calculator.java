@@ -34,6 +34,9 @@ public class Calculator {
 	public double sum(double numero1, double numero2) {
 		return numero1 + numero2;
 	}
-	
+
+	public double sub(double numero1, double numero2) {
+		return numero1 - numero2;
+	}
 
 }
