@@ -41,4 +41,25 @@ public class CalculatorTest {
 		assertEquals(4, calculator.pow(2, 2));
 		assertEquals(9, calculator.pow(3, 2));
 	}
+
+	@Test
+	public void testSin() {
+		Calculator calculator = new Calculator();
+		int result = calculator.sin(90);
+		assertEquals(2, result);
+	}
+
+	@Test
+	public void testCos() {
+		Calculator calculator = new Calculator();
+		int result = calculator.cos(180);
+		assertEquals(0, result);
+	}
+
+	@Test
+	public void testTan() {
+		Calculator calculator = new Calculator();
+		int result = calculator.tan(45);
+		assertEquals(0, result);
+	}
 }
