@@ -50,5 +50,15 @@ public class Calculator {
         	return Math.pow(number1,number2);
     }
 
+	public double sin(double number1) {
+		return Math.sin(number1);
+	}
 
+	public double cos(double number1) {
+		return Math.cos(number1);
+	}
+
+	public double tan(double number1) {
+		return Math.tan(number1);
+	}
 }

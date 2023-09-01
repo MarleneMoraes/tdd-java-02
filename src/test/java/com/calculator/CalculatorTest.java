@@ -45,21 +45,21 @@ public class CalculatorTest {
 	@Test
 	public void testSin() {
 		Calculator calculator = new Calculator();
-		int result = calculator.sin(90);
-		assertEquals(2, result);
+		double result = calculator.sin(Math.PI / 2);
+		assertEquals(1.0, result, 0.0001);
 	}
 
 	@Test
 	public void testCos() {
 		Calculator calculator = new Calculator();
-		int result = calculator.cos(180);
-		assertEquals(0, result);
+		double result = calculator.cos(Math.PI);
+		assertEquals(-1.0, result, 0.0001);
 	}
 
 	@Test
 	public void testTan() {
 		Calculator calculator = new Calculator();
-		int result = calculator.tan(45);
-		assertEquals(0, result);
+		double result = calculator.tan(Math.PI / 4);
+		assertEquals(1.0, result, 0.0001);
 	}
 }
